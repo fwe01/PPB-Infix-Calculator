@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PERSONAL_FILE_DAT/EXinsTINCT (not auto)/Programming Project/PPB/PPB-Infix-Calculator/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.5525" />
+        <entry key="..\:/PERSONAL_FILE_DAT/EXinsTINCT (not auto)/Programming Project/PPB/PPB-Infix-Calculator/app/src/main/res/drawable/delete_icon.xml" value="0.5515" />
+        <entry key="..\:/PERSONAL_FILE_DAT/EXinsTINCT (not auto)/Programming Project/PPB/PPB-Infix-Calculator/app/src/main/res/drawable/ic_baseline_backspace_24.xml" value="0.5525" />
+        <entry key="..\:/PERSONAL_FILE_DAT/EXinsTINCT (not auto)/Programming Project/PPB/PPB-Infix-Calculator/app/src/main/res/drawable/roundbutton.xml" value="0.5525" />
+        <entry key="..\:/PERSONAL_FILE_DAT/EXinsTINCT (not auto)/Programming Project/PPB/PPB-Infix-Calculator/app/src/main/res/drawable/roundedbutton.xml" value="0.5525" />
+        <entry key="..\:/PERSONAL_FILE_DAT/EXinsTINCT (not auto)/Programming Project/PPB/PPB-Infix-Calculator/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/PERSONAL_FILE_DAT/EXinsTINCT (not auto)/Programming Project/PPB/PPB-Infix-Calculator/app/src/main/res/layout/calculator_buttons.xml" value="0.5583333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

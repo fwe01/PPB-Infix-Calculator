@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:rowCount="5"
+    android:theme="@style/Theme.AppCompat">
+
+    <!--    ROW 1   -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/c"
+        android:text="@string/c"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/roundbutton"
+        android:gravity="center" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/open_apos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_rowWeight="1"
+        android:layout_column="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/roundbutton"
+        android:gravity="center"
+        android:text="@string/open_apos"
+        android:textSize="40sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/close_apos"
+        android:text="@string/close_apos"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/roundbutton"
+        android:gravity="center" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/div"
+        android:text="@string/div"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/roundbutton"
+        android:gravity="center" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/seven"
+        android:text="@string/seven"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/roundbutton"
+        android:gravity="center" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/eight"
+        android:text="@string/eight"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/roundbutton"
+        android:gravity="center" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nine"
+        android:text="@string/nine"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/roundbutton"
+        android:gravity="center" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/multiply"
+        android:text="@string/multiply"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/roundbutton"
+        android:gravity="center" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/four"
+        android:text="@string/four"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/roundbutton"
+        android:gravity="center" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/five"
+        android:text="@string/five"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/roundbutton"
+        android:gravity="center" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/six"
+        android:text="@string/six"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/roundbutton"
+        android:gravity="center" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/subtract"
+        android:text="@string/subtract"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/roundbutton"
+        android:gravity="center" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/one"
+        android:text="@string/one"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/roundbutton"
+        android:gravity="center" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/two"
+        android:text="@string/two"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/roundbutton"
+        android:gravity="center" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/three"
+        android:text="@string/three"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/roundbutton"
+        android:gravity="center" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addition"
+        android:text="@string/addition"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/roundbutton"
+        android:gravity="center" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/minus"
+        android:text="@string/minus"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/roundbutton"
+        android:gravity="center" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/zero"
+        android:text="@string/zero"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/roundbutton"
+        android:gravity="center" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/coma"
+        android:text="@string/coma"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/roundbutton"
+        android:gravity="center" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/equal"
+        android:text="@string/equal"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/roundbutton"
+        android:gravity="center" />
+</GridLayout>
